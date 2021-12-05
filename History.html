@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>
+BVB History
+</title>  
+<meta charset="UTF-8">
+<!--Link to javascript-->
+<script src="History.js"></script>
+
+
+<style>
+
+/*Display Navigation*/
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(0, 1, 2);
+}
+  
+.flex-container > div {
+    background-color: hsla(59, 78%, 51%, 0.973);
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+/*Display Text*/
+.text {
+  background-color: lightyellow;
+  width: 400px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;
+  position:absolute;
+  top: 150px;
+  left: 350px;
+}
+
+/*Display box for Trophies*/
+.flex-container2 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(247, 243, 243);
+  position: relative;
+  top: 700px;
+}
+
+.flex-container2 > div {
+  background-color:rgb(247, 243, 243);
+  width: 80px;
+  margin: 145px;    
+  text-align: center;
+}
+
+/*Position of title*/
+.title{
+  position:absolute;
+  top: 900px;
+  left: 570px;
+}
+
+/*Positon for first trophy*/
+.first {
+  position: absolute;
+  top: 270px;
+  left: 75px;
+}
+
+/*Positon for second trophy*/
+.second{
+  position:absolute;
+  top: 270px;
+  left: 450px;
+}
+
+/*Positon for third trophy*/
+.third{
+  position:absolute;
+  top: 270px;
+  right: 50px;
+}
+
+
+/*Display for mobile*/
+@media only screen and (max-width:1000px) {
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(0, 1, 2);
+
+}
+
+.flex-container > div {
+  background-color: hsla(59, 78%, 51%, 0.973);
+  width: 200px;
+  margin: 17px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 15px;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(247, 243, 243);
+}
+
+.flex-container2 > div {
+  background-color:rgb(247, 243, 243);
+  width: 80px;
+  margin: 145px;
+  text-align: center;
+}
+.text {
+  background-color: lightyellow;
+  width: 400px;
+  border: 15px solid black;
+  padding: 50px;
+  margin: 20px;
+  position:absolute;
+  top: 150px;
+  left: 200px;
+}
+
+.third{
+  position:absolute;
+  top: 800px;
+  left: 90px;
+}
+
+.title{
+  position:absolute;
+  top: 870px;
+  left: 420px;
+}
+
+}
+</style>
+
+</head>
+<!--Apply Background Colour-->
+<body style="background-color:yellow;">
+
+
+
+<!--Navigation Buttons-->  
+<div class="flex-container">
+  <div><p><a href="News.html">News</a></p></div>
+  <div><p><a href="Shop.html">Shop</a></p></div>
+  <div><p><a href="Club.html">Club</a></p></div>
+  <div><p><a href="Index.html">Home</a></p></div>
+</div>
+
+<!--Shows the text of the history of the club-->
+<div class = "text">
+  <!--Title-->
+  <h1>History Of Dortmund</h1>
+  Ballspielverein Borussia 09 e. V. Dortmund commonly known as Borussia Dortmund, BVB or just Dortmund is a professional football sports club based in Dortmund, Germany. It was founded in 1909 19 December, 111 years ago. It is best known for its men’s professional football team which play in the top tier of German football, Bundesliga. They have won eight league title, five DFB-Pokals, One UEFA Champions League, One Intercontinental Cup, and one UEFA Cup Winners’ Cup. It is part of a large membership-based sports club with over 145000 members making it the second largest in Germany. They are playing their home games in the Westfalenstadion, also know as Signal Iduna Park. It can hold up to 81000 people which is the largest in Germany and one of the biggest in Germany. It also has one of the highest average attendances in the world. The Dortmund colour is black and yellow. They also hold a long-term rivalry with their rugh neighbours Schalke 04 and provide one the most spectacular battles when they face each other. Another big game is “Der Klassiker” when they face off Bayern Munich the record champions in Germany. Dortmund has a history of bringing young talents from young stars to big names and dominate the footballing world. They are also the second richest club in Germany and the 12th richest football team in the world. They are currently managed by coach Marco Rose as they look to fight for their 9th title 
+</div>
+
+<!--Display Box for trophy-->
+<div class="flex-container2">
+
+  <!--Display 3 trophy image-->
+  <div><img src="Images/CLPIC.jpg" alt="Trulli" width="250" height="250"></div>
+  <div><img src="Images/DFB.jpg" alt="Trulli" width="250" height="250"></div>
+  <div><img src="Images/Bundesliga4.jpg" alt="Trulli" width="250" height="250"></div>
+
+  <!--Button for first trophy-->
+  <div class="first"><p id ="demo">Champions League Trophy: ?</p>
+    <button type="button" onclick="myFunction1()" >Click Me to find out!</button></div>
+  
+  <!--Button for second trophy-->
+  <div class="second"><p id ="demo2">DFB Cup Trophy: ?</p>
+    <button type="button" onclick="myFunction2()" >Click Me to find out!</button></div>
+  
+  <!--Button for first trophy-->  
+  <div class="third"><p id ="demo3">Bundesliga Champions:?</p>
+    <button type="button" onclick="myFunction3()" >Click Me to find out!</button></div>
+  </div>  
+  <!--Display title of trohpy-->
+  <div class="title"><H1>Trophies</H1></div>
+  
+</body>
+</html>
+
+

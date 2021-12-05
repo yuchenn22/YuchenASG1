@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>
+BVB Home Page
+</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+
+<!--Didnt create css as didnt want to deal with so many files|Few style only-->
+<style>
+/*Navigation*/
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(0, 1, 2);
+}
+      
+.flex-container > div {
+  background-color: hsla(59, 78%, 51%, 0.973);
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.image{
+  vertical-align:middle;
+  margin:50px 250px;
+}
+
+.positions{
+  position: relative;
+  left: 70px;
+  margin: 50px;
+  font-size: xx-large;
+  
+}
+
+
+/*Display for iphone6/7/8 plus*/
+@media only screen and (max-width:800px) {
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(0, 1, 2);
+}
+      
+.flex-container > div {
+  background-color: hsla(59, 78%, 51%, 0.973);
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.image{
+  vertical-align:middle;
+  margin: 50px;
+}
+.positions{
+  position: relative;
+  left: 10px;
+  margin: 10px;
+}
+
+
+}
+</style>
+</head>
+<!--Background colour-->
+<body style="background-color:yellow;">
+
+<!--Club logo-->
+<img src="logo-bvb.svg" alt="Trulli" width="100" height="100">
+
+<!--Navigation-->
+<div class="flex-container">
+  <div><p><a href="News.html">News</a></p></div>
+  <div><p><a href="Shop.html">Shop</a></p></div>
+  <div><p><a href="Club.html">Club</a></p></div>
+  <div><p><a href="History.html">History</a></p></div>
+</div> 
+
+<!--Picture of Club-->
+<div class ="image">
+<img src="Images/borussia-moenchengladbach-v-borussia-dortmund-bundesliga-5e95daac427ad6fcca000001.jpg" alt="Trulli" width="750" height="450">
+</div>
+<!--Previous and next fixture heading-->    
+<div class = "positions">
+<pre><strong>Previous Fixture</strong>                    <strong>Next Fixture</strong></pre>
+</div>
+
+<!--Images of previous and next fixture-->
+<a href="https://www.bundesliga.com/en/bundesliga/news/wolfsburg-borussia-dortmund-live-line-ups-stats-haaland-bellingham-reus-reyna-17997"><img src="Images/Picture4.png" alt="Trulli" width="500" height="275"></a>
+
+<a href="https://www.espn.com.sg/soccer/match/_/gameId/608663"><img src="Images/Picture3.png" alt="Trulli" width="500" height="275"></a>
+</body>
+</html> 

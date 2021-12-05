@@ -1,0 +1,101 @@
+/*Display Navigation*/
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(0, 1, 2);
+  
+}
+  
+.flex-container > div {
+    background-color: hsla(59, 78%, 51%, 0.973);
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+/*Align text*/
+.center{
+  text-align: center;
+}
+
+/*Display position of goal, defend, midefield and attack*/
+
+.goal {
+    margin: 20px;
+    position:absolute;
+    top: 250px;
+    left: 100px;
+}
+
+.defend{
+    margin: 20px;
+    position:absolute;
+    top: 250px;
+    left: 400px;
+}
+
+.midfield{
+    margin: 20px;
+    position:absolute;
+    top: 250px;
+    left: 700px;
+}
+
+.attack{
+    margin: 20px;
+    position:absolute;
+    top: 250px;
+    left: 1000px;
+}
+
+/*Adjust for mobile Iphone6/7/8 Plus*/
+@media only screen and (max-width:1000px) {
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(0, 1, 2);
+  
+}
+  
+.flex-container > div {
+  background-color: hsla(59, 78%, 51%, 0.973);
+  width: 200px;
+  margin: 17px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 15px;
+}
+
+.goal {
+  margin: 20px;
+  position:absolute;
+  top: 200px;
+  left: 100px;
+}
+
+.defend{
+  margin: 20px;
+  position:absolute;
+  top: 200px;
+  left: 300px;
+}
+    
+.midfield{
+margin: 20px;
+position:absolute;
+top: 200px;
+left: 530px;
+}
+    
+.attack{
+margin: 20px;
+position:absolute;
+top: 200px;
+left:730px;
+}
+    
+    
+}

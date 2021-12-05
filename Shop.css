@@ -1,0 +1,197 @@
+/*Navigtion*/
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(0, 1, 2);
+
+}
+
+.flex-container > div {
+  background-color: hsla(59, 78%, 51%, 0.973);
+  width: 300px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+/*Box for all the Shop items*/
+.flex-container2 {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(247, 243, 243);
+}
+
+.flex-container2 > div {
+  background-color:rgb(247, 243, 243);
+  width: 80px;
+  margin: 145px;
+  text-align: center;
+}
+
+/*First 3 shop item price*/
+.first {
+  position: absolute;
+  top: 880px;
+  left: 85px;
+}
+
+.second{
+  position:absolute;
+  top: 880px;
+  left: 465px;
+}
+
+.third{
+  position:absolute;
+  top: 880px;
+  right: 60px;
+}
+
+/*Second of the 3 shop item prices*/
+.first2 {
+    position: absolute;
+    top: 1420px;
+    left: 85px;
+  }
+
+.second2{
+    position:absolute;
+    top: 1420px;
+    left: 465px;
+}
+
+.third2{
+    position:absolute;
+    top: 1420px;
+    right: 60px;
+}
+
+/*Third of the 3 shop item prices*/
+.first3 {
+  position: absolute;
+  top: 1960px;
+  left: 85px;
+}
+
+.second3{
+  position:absolute;
+  top: 1960px;
+  left: 465px;
+}
+
+.third3{
+  position:absolute;
+  top: 1960px;
+  right: 60px;
+}
+
+/*Model*/
+.model {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 450px;
+}
+
+/*Button to purchase*/
+.button {
+    color: black;
+    font-size: 25px;
+    margin: 4px 1125px;
+    cursor: pointer;
+    background-color:whitesmoke;
+}
+
+.button2 {
+    margin: 4px 0px;
+    color: lightcoral;
+    background-color:lightblue;
+}
+ 
+/*For iphone6/7/8 plus*/
+@media only screen and (max-width:800px) {
+
+  .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: rgb(0, 1, 2);
+    
+  }
+    
+  .flex-container > div {
+      background-color: hsla(59, 78%, 51%, 0.973);
+      width: 60px;
+      margin: 17px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 15px;
+  }
+    
+  .flex-container2 {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: rgb(247, 243, 243);
+  }
+    
+  .flex-container2 > div {
+      background-color:rgb(247, 243, 243);
+      width: 80px;
+      margin: 145px;
+      text-align: center;
+   }
+
+  .first {
+      position: absolute;
+      top: 860px;
+      left: 85px;
+  }
+    
+  .second{
+      position:absolute;
+      top: 1410px;
+      left: 85px;
+  }
+  
+  .third{
+      position:absolute;
+      top: 1950px;
+      left: 85px;
+  }
+  .first2 {
+      position: absolute;
+      top: 2490px;
+      left: 85px;
+  }
+  
+  .second2{
+      position:absolute;
+      top: 3030px;
+      left: 85px;
+  }
+  
+  .third2{
+      position:absolute;
+      top: 3580px;
+      left: 85px;
+  }
+  .first3 {
+    position: absolute;
+    top: 4120px;
+    left: 85px;
+  }
+  
+  .second3{
+    position:absolute;
+    top: 4680px;
+    left: 85px;
+  }
+  
+  .third3{
+    position:absolute;
+    top: 5220px;
+    left: 85px;
+  }
+  
+}
